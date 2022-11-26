@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin(origins = "*")
-@RequestMapping(path = "/v1/autor")
+@RequestMapping(path = "/v1/example")
 public class ExampleController extends BaseControllerImpl<Example, ExampleServiceImpl> {
 
 }
